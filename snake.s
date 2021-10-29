@@ -1,19 +1,8 @@
 ########################################################################
-# COMP1521 21T2 -- Assignment 1 -- Snake!
-# <https://www.cse.unsw.edu.au/~cs1521/21T2/assignments/ass1/index.html>
-#
-#
-# !!! IMPORTANT !!!
-# Before starting work on the assignment, make sure you set your tab-width to 8!
-# For instructions, see: https://www.cse.unsw.edu.au/~cs1521/21T2/resources/mips-editors.html
-# !!! IMPORTANT !!!
-#
-#
+# Snake!
 # This program was written by Jayden Matthews (z5360350)
 # on 12/07/2021
-#
-# Version 1.0 (2021-06-24): Team COMP1521 <cs1521@cse.unsw.edu.au>
-#
+
 
 	# Requires:
 	# - [no external symbols]
@@ -677,21 +666,6 @@ move_snake_in_array__epilogue:
 	addiu 	$sp, $sp, 4
 
 	jr	$ra			# return;
-
-
-########################################################################
-####                                                                ####
-####        STOP HERE ... YOU HAVE COMPLETED THE ASSIGNMENT!        ####
-####                                                                ####
-########################################################################
-
-##
-## The following is various utility functions provided for you.
-##
-## You don't need to modify any of the following.  But you may find it
-## useful to read through --- you'll be calling some of these functions
-## from your code.
-##
 
 	.data
 
